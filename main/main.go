@@ -20,7 +20,7 @@ func main() {
 
 	var tetr merv
 	fast := make(sierra)
-	data, _:= os.ReadFile("ready.json")
+	data, _:= os.ReadFile("western.json")
 	json.Unmarshal(data, &tetr)
 	for id,bomb_m := range tetr {
 		tyd := on_green.Make_from(bomb_m.PrivateKey)
